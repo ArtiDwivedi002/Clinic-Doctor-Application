@@ -17,11 +17,11 @@ export default function Dashboard() {
 
     return (
         <main className="min-h-screen bg-[#F9FBFC]">
-            {/* HEADER */}
+            
             <header className="border-b border-gray-200 bg-white">
                 <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
 
-                    {/* LOGO */}
+                   
                     <Link href="/" className="flex items-center gap-2">
                         <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#4F6FD9]">
                             <span className="text-xl font-bold text-white">+</span>
@@ -32,7 +32,7 @@ export default function Dashboard() {
                         </span>
                     </Link>
 
-                    {/* USER INFO */}
+                  
                     <div className="flex items-center gap-4">
                         <div className="hidden text-right sm:block">
                             <p className="text-sm font-medium text-[#24314D]">
@@ -58,10 +58,10 @@ export default function Dashboard() {
                 </div>
             </header>
 
-            {/* DASHBOARD CONTENT */}
+       
             <section className="mx-auto max-w-7xl px-6 py-10 lg:px-10">
 
-                {/* TITLE */}
+          
                 <div className="mb-8">
                     <p className="text-sm font-medium text-[#4F6FD9]">
                         Dashboard
@@ -76,7 +76,7 @@ export default function Dashboard() {
                     </p>
                 </div>
 
-                {/* PROFILE NAVIGATION */}
+              
                 <div className="mb-8 flex flex-wrap gap-3">
                     <Link
                         href={RouteConstants.DASHBOARD}
@@ -93,10 +93,10 @@ export default function Dashboard() {
                     </Link>
                 </div>
 
-                {/* STATISTICS */}
+             
                 <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
 
-                    {/* CARD 1 */}
+                  
                     <div className="rounded-2xl bg-white p-6 shadow-sm">
                         <div className="flex items-center justify-between">
                             <div>
@@ -115,7 +115,7 @@ export default function Dashboard() {
                         </div>
                     </div>
 
-                    {/* CARD 2 */}
+                 
                     <div className="rounded-2xl bg-white p-6 shadow-sm">
                         <div className="flex items-center justify-between">
                             <div>
@@ -134,7 +134,7 @@ export default function Dashboard() {
                         </div>
                     </div>
 
-                    {/* CARD 3 */}
+                
                     <div className="rounded-2xl bg-white p-6 shadow-sm">
                         <div className="flex items-center justify-between">
                             <div>
@@ -154,7 +154,7 @@ export default function Dashboard() {
                     </div>
                 </div>
 
-                {/* RECENT ACTIVITY */}
+             
                 <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm">
                     <div className="flex items-center justify-between">
                         <div>
