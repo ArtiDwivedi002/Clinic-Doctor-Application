@@ -214,7 +214,7 @@ export default function Login() {
                 </button>
               </p>
 
-              {/* FOOTER */}
+         
               <p className="text-center text-[10px] text-gray-400 mt-16">
                 © 2026 ALL RIGHTS RESERVED
               </p>
@@ -222,7 +222,7 @@ export default function Login() {
             </div>
           </div>
 
-          {/* RIGHT SIDE IMAGE */}
+       
           <div className="hidden lg:flex justify-center">
             <div className="relative w-full max-w-130 h-155 overflow-hidden rounded-2xl">
 
