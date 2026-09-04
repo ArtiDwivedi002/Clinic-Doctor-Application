@@ -54,13 +54,11 @@ const Hero = () => {
 
         <div className="relative flex justify-center">
 
-          {/* Background Shape */}
-
+        
           <div className="absolute h-105 w-105 rounded-full bg-[#DCE5FF] lg:h-130 lg:w-130" />
 
-          {/* Doctor Image */}
-
-          <div className="relative z-10 h-105 w-full max-w-125 lg:h-130`">
+          
+        <div className="relative z-10 h-105 w-105 lg:h-130 lg:w-125">
 
             <Image 
             src= {doctor}

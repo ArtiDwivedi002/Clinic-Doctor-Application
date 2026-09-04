@@ -52,6 +52,7 @@ export default function FacilitySection() {
             src={doctorOperation.src}
             alt="Doctor"
             className="left-[8%] top-[8%]"
+            
           />
 
           {/* Floating Image - Right */}
