@@ -60,7 +60,7 @@ export default function ProfilePage() {
           </h1>
 
           <p className="mt-2 text-sm text-gray-500">
-            View and update your personal information.
+            View and update your Personal Information.
           </p>
         </div>
 
@@ -79,7 +79,7 @@ export default function ProfilePage() {
 
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
 
-              {/* FIRST NAME */}
+            
               <div>
                 <label className="mb-2 block text-sm font-medium text-gray-700">
                   First Name
@@ -109,7 +109,7 @@ export default function ProfilePage() {
                 />
               </div>
 
-              {/* LAST NAME */}
+           
               <div>
                 <label className="mb-2 block text-sm font-medium text-gray-700">
                   Last Name
@@ -139,7 +139,7 @@ export default function ProfilePage() {
                 />
               </div>
 
-              {/* EMAIL */}
+           
               <div>
                 <label className="mb-2 block text-sm font-medium text-gray-700">
                   Email
@@ -169,7 +169,7 @@ export default function ProfilePage() {
                 />
               </div>
 
-              {/* PHONE */}
+     
               <div>
                 <label className="mb-2 block text-sm font-medium text-gray-700">
                   Phone
@@ -199,7 +199,7 @@ export default function ProfilePage() {
                 />
               </div>
 
-              {/* DATE OF BIRTH */}
+            
               <div className="md:col-span-2">
                 <label className="mb-2 block text-sm font-medium text-gray-700">
                   Date of Birth
